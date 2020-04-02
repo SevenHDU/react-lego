@@ -1,8 +1,8 @@
-import { hello } from './modules/hello.js';
-import { world } from "./modules/world.js";
-import { test } from './test.js';
+import ReactDOM from 'react-dom';
+import React from 'react';
+import App from './app';
 
-console.log('main --- index');
-hello();
-world();
-test();
+ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+);

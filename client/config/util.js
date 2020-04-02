@@ -5,7 +5,9 @@ const appDirectory = fs.realpathSync(process.cwd());
 
 
 function resolveApp(relativePath) {
-    path.resolve(appDirectory, relativePath);
+    const filePath = path.resolve(appDirectory, relativePath);
+
+    return filePath;
 }
 
 
