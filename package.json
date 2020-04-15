@@ -42,7 +42,6 @@
     ],
     "client/**/*.scss": [
       "stylelint --fix --syntax scss",
-      "prettier --write",
       "git add"
     ],
     "client/**/*.{js,jsx,tsx}": [
