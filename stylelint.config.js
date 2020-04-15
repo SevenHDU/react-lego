@@ -1,3 +1,6 @@
 module.exports = {
-    extends: 'stylelint-config-sass-guidelines'
+    extends: 'stylelint-config-sass-guidelines',
+    rules: {
+        "color-hex-case": "upper"
+    }
 };
