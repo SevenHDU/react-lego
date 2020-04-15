@@ -1,13 +1,12 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
+import Text from './modules/text/index';
 
 function app() {
-    const a = 'dsada';
-    console.log(a);
-
     return (
         <div>
-            <p>111111111</p>
+            <p>SevenHDU</p>
+            <Text text="hello"></Text>
         </div>
     );
 }
